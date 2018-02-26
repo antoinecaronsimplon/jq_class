@@ -1,0 +1,43 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+.white {
+	background-color: white;
+}
+
+.black {
+	background-color: black;
+}
+
+.line {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.square {
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+}
+
+.circle {
+	border: 1px solid;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+}
+
+.diamond {
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+	transform: rotate(45deg);
+	margin-top: 50px;
